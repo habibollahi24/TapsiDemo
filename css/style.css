@@ -228,7 +228,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .features__image img {
@@ -451,7 +451,6 @@ form {
   flex-direction: column;
   justify-content: space-between;
   margin: 1rem auto;
-
 }
 .contact-us__form h4 {
   text-align: center;
@@ -553,12 +552,12 @@ form {
   position: absolute;
   z-index: 10;
   top: 50px;
-  left:0;
+  left: 0;
   background-color: #fff;
   width: 100%;
   padding-right: 8px;
   padding-bottom: 2rem;
-  max-height:100vh;
+  max-height: 100vh;
 }
 /* .nav__list--item.toggler .navbar{
 position: absolute;
@@ -679,8 +678,7 @@ z-index: 10;
   background-color: gold;
   margin-bottom: 5rem;
   position: relative;
-  
-  
+
   z-index: -10;
 }
 .hero img {
@@ -742,7 +740,7 @@ z-index: 10;
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  .hero{
+  .hero {
     margin-bottom: 15rem;
   }
   .box-app__btn {
@@ -803,6 +801,7 @@ z-index: 10;
 
 .service-tab__icons p {
   font-size: 1.4rem;
+  color: #333;
 }
 .service-tab__icons a {
   display: flex;
@@ -810,6 +809,7 @@ z-index: 10;
   align-items: center;
   cursor: pointer;
 }
-.service-tab__icons a:hover img {
+.service-tab__icons a:hover img,
+.service-tab__icons a:focus img {
   opacity: 1;
 }
