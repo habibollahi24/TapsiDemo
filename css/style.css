@@ -183,9 +183,7 @@ h2 {
 .header--secondry {
   background-color: var(--secondray-color-dark);
 }
-.plan__header p {
-  /* margin-bottom: 30px; */
-}
+
 .plan__header--badge {
   display: flex;
   justify-content: space-between;
