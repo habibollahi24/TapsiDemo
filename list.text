@@ -1,0 +1,11 @@
+<ul class="list list--inline">
+  <li class="list__item">ایتم 1</li>
+  <li class="list__item">ایتم 2</li>
+  <li class="list__item">ایتم 3</li>
+</ul>
+<br />
+<ul class="list list--tick">
+  <li class="list__item">ایتم 1</li>
+  <li class="list__item">ایتم 2</li>
+  <li class="list__item">ایتم 3</li>
+</ul>

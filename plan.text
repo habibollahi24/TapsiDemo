@@ -1,0 +1,43 @@
+<div class="plan regular">
+    <div class="plan__header header--secondry">
+      <div class="plan__header--badge">
+        <span>عادی</span>
+        <span class="badge badge--secondry"> off 10%</span>
+      </div>
+
+      <p><span class="plan__header--price">290,000</span><span>ماهانه/تومان</span></p>
+      <p>سرویس ماشین های معمولی</p>
+    </div>
+    <div class="plan__body">
+      <ul class="list list--tick">
+        <li class="list__item">کیفیت افتضاح</li>
+        <li class="list__item">چهارتا چرخ داره</li>
+        <li class="list__item">راننده بداخلاق</li>
+      </ul>
+    </div>
+    <div class="plan__footer">
+      <button class="btn btn--secondry btn--block">ثبت سفارش</button>
+    </div>
+  </div>
+<!-- //////////////////////////////////////////// -->
+<div class="plan special">
+    <div class="plan__header header--primary">
+      <div class="plan__header--badge">
+        <span>عادی</span>
+        <span class="badge badge--primary"> off 10%</span>
+      </div>
+
+      <p><span class="plan__header--price">290,000</span><span>ماهانه/تومان</span></p>
+      <p>سرویس ماشین های معمولی</p>
+    </div>
+    <div class="plan__body">
+      <ul class="list list--tick">
+        <li class="list__item">کیفیت افتضاح</li>
+        <li class="list__item">چهارتا چرخ داره</li>
+        <li class="list__item">راننده بداخلاق</li>
+      </ul>
+    </div>
+    <div class="plan__footer">
+      <button class="btn btn--primary btn--block">ثبت سفارش</button>
+    </div>
+  </div>
