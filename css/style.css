@@ -1,4 +1,5 @@
-@import url("font.css");
+@import url("vazir.css");
+
 
 /* reset css */
 *,
@@ -30,7 +31,7 @@ body {
   /* 1.4rem==14px in first-mobile-design */
   font-size: 1.4rem;
   line-height: 2;
-  font-family:iranyekan ;
+  font-family:Vazir ;
 }
 h1,
 h2,
