@@ -31,11 +31,8 @@ body {
   /* 1.4rem==14px in first-mobile-design */
   font-size: 1.4rem;
   line-height: 2;
-  font-family: Vazir;
 }
-button {
-  font-family: Vazir;
-}
+
 h1,
 h2,
 h3 {
