@@ -1,5 +1,4 @@
-@import url("vazir.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 
 /* reset css */
 *,
@@ -10,6 +9,7 @@
   box-sizing: border-box;
   /* list-style: none; */
   text-decoration: none;
+  font-family: Vazirmatn;
 }
 
 /* root variable */
@@ -31,10 +31,10 @@ body {
   /* 1.4rem==14px in first-mobile-design */
   font-size: 1.4rem;
   line-height: 2;
-  font-family:Vazir ;
+  font-family: Vazir;
 }
-button{
-  font-family:Vazir ;
+button {
+  font-family: Vazir;
 }
 h1,
 h2,
@@ -135,10 +135,10 @@ h2 {
   margin-left: 10px;
 }
 .list--tick .list__item::before {
-  content: "";
+  content: '';
   width: 25px;
   height: 25px;
-  background: url("../assets/images/Tick\ Square.svg") no-repeat;
+  background: url('../assets/images/Tick\ Square.svg') no-repeat;
   padding-right: 25px;
   margin: 6px;
 }
@@ -282,21 +282,24 @@ h2 {
 .icons--twiter {
   width: 40px;
   height: 40px;
-  background: url("../assets/images/icons8-twitter.svg") no-repeat center;
+  background: url('../assets/images/icons8-twitter.svg') no-repeat
+    center;
   background-color: rgb(248, 248, 248);
   border-radius: 100%;
 }
 .icons--instagram {
   width: 40px;
   height: 40px;
-  background: url("../assets/images/icons8-instagram.svg") no-repeat center;
+  background: url('../assets/images/icons8-instagram.svg') no-repeat
+    center;
   background-color: rgb(248, 248, 248);
   border-radius: 100%;
 }
 .icons--facebook {
   width: 40px;
   height: 40px;
-  background: url("../assets/images/icons8-facebook.svg") no-repeat center;
+  background: url('../assets/images/icons8-facebook.svg') no-repeat
+    center;
   background-color: rgb(248, 248, 248);
   border-radius: 100%;
 }
@@ -323,11 +326,11 @@ h2 {
   padding-left: 3rem;
 }
 .adress--email::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url("../assets/images/Message.svg") no-repeat center
+  background: url('../assets/images/Message.svg') no-repeat center
     rgb(248, 248, 248);
   bottom: 0;
   margin-right: 5px;
@@ -338,11 +341,11 @@ h2 {
   padding-left: 3rem;
 }
 .adress--number::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url("../assets/images/Calling.svg") no-repeat center
+  background: url('../assets/images/Calling.svg') no-repeat center
     rgb(248, 248, 248);
   bottom: 0;
   margin-right: 5px;
@@ -353,11 +356,11 @@ h2 {
   padding-left: 3rem;
 }
 .adress--adress::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url("../assets/images/Message.svg") no-repeat center
+  background: url('../assets/images/Message.svg') no-repeat center
     rgb(248, 248, 248);
   bottom: 0;
   margin-right: 5px;
@@ -373,9 +376,9 @@ form {
     display: grid;
     grid-column-gap: 2rem;
     grid-template-areas:
-      "adress form"
-      "map form"
-      "icons form";
+      'adress form'
+      'map form'
+      'icons form';
     grid-template-columns: 70fr 30fr;
   }
   .contact-us__icons {
@@ -687,6 +690,20 @@ z-index: 10;
 .hero img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  background-size: 50%;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
 
 .box-app-wrapper {

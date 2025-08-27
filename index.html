@@ -1,306 +1,386 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  <link href='https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Tapsi Demo</title>
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css"
+      integrity="sha512-J2Gce+WmOttffHOrVKLTlzxIalPXUMDbSfn5ADqp8Vj9EngnjNHr+jjiL3ZB8muEzo+K51gU10X+0eGqGNL7QA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Tapsi Demo</title>
+  </head>
 
-<body>
-  <header class="navbar">
-    <div class="nav container">
-      <div class="nav__logo">
-        <img src="./assets/images/Tapsi-passenger.svg" alt="" />
+  <body>
+    <header class="navbar">
+      <div class="nav container">
+        <div class="nav__logo">
+          <img src="./assets/images/Tapsi-passenger.svg" alt="" />
+        </div>
+        <div class="nav__menu">
+          <div class="menu--one"></div>
+          <div class="menu--two"></div>
+          <div class="menu--three"></div>
+        </div>
+        <nav class="nav__list">
+          <ul class="nav__list--item">
+            <li><a href="#">پشتیبانی</a></li>
+            <li><a href="#">خدمات کسب و کارها</a></li>
+            <li><a href="#">فرصت های شغلی</a></li>
+            <li><a href="#">وبلاگ</a></li>
+            <li>
+              <a class="btn btn--primary" href="#">دانلود تپسی</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div class="nav__menu">
-        <div class="menu--one"></div>
-        <div class="menu--two"></div>
-        <div class="menu--three"></div>
-      </div>
-      <nav class="nav__list">
-        <ul class="nav__list--item">
-          <li><a href="#">پشتیبانی</a></li>
-          <li><a href="#">خدمات کسب و کارها</a></li>
-          <li><a href="#">فرصت های شغلی</a></li>
-          <li><a href="#">وبلاگ</a></li>
-          <li><a class="btn btn--primary" href="#">دانلود تپسی</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- herooooo -->
-  <section class="hero">
-    <picture>
-      <source srcset="https://tapsi.ir/images/home/banner.webp" type="image/webp" media="(min-width: 768px)">
-      <source srcset="https://tapsi.ir/images/home/banner.jpg" type="image/jpg" media="(min-width: 768px)">
-      <source srcset="https://tapsi.ir/images/home/banner-mobile.webp" type="image/webp" media="(max-width: 768px)">
-      <source srcset="https://tapsi.ir/images/home/banner-mobile.jpg" type="image/jpg" media="(max-width: 768px)">
-      <img alt="banner" src="https://tapsi.ir/images/home/banner.jpg" class="banner-img">
-    </picture>
-    <div class=" box-app-wrapper ">
-      <div class="box-app ">
-        <h1>تپسی</h1>
-        <h2>اپلیکیشن درخواست خودرو و پیک</h2>
-        <div class="box-app__btn">
-          <div class="app__btn--pasenger">
-            <i class="fas fa-long-arrow-alt-down"></i>
-            <p>دانلود اپلیکیشن مسافران </p>
+    </header>
+    <!-- herooooo -->
+    <section class="hero">
+      <picture>
+        <source
+          srcset="./assets/images/tapban.jpg"
+          type="image/webp"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./assets/images/tapban.jpg"
+          type="image/jpg"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./assets/images/tapban.jpg"
+          type="image/webp"
+          media="(max-width: 768px)"
+        />
+        <source
+          srcset="./assets/images/tapban.jpg"
+          type="image/jpg"
+          media="(max-width: 768px)"
+        />
+        <img
+          alt="banner"
+          src="./assets/images/tapban.jpg"
+          class="banner-img"
+        />
+      </picture>
+      <div class="box-app-wrapper">
+        <div class="box-app">
+          <h1>تپسی</h1>
+          <h2>اپلیکیشن درخواست خودرو و پیک</h2>
+          <div class="box-app__btn">
+            <div class="app__btn--pasenger">
+              <i class="fas fa-long-arrow-alt-down"></i>
+              <p>دانلود اپلیکیشن مسافران</p>
+            </div>
+            <div class="app__btn--pasenger">
+              <i class="fas fa-address-book"></i>
+              <p>وب اپلیکیشن مسافران</p>
+            </div>
+            <div class="app__btn--driver">
+              <i class="fas fa-long-arrow-alt-down"></i>
+              <p>دانلود اپلیکیشن رانندگان</p>
+            </div>
+            <div class="app__btn--driver">
+              <i class="fas fa-car"></i>
+              <p>ثبت نام راننده</p>
+            </div>
           </div>
-          <div class="app__btn--pasenger">
-            <i class="fas fa-address-book"></i>
-            <p>وب اپلیکیشن مسافران</p>
-          </div>
-          <div class="app__btn--driver">
-            <i class="fas fa-long-arrow-alt-down"></i>
-            <p>دانلود اپلیکیشن رانندگان </p>
-          </div>
-          <div class="app__btn--driver">
-            <i class="fas fa-car"></i>
-            <p>ثبت نام راننده</p>
-          </div>
         </div>
       </div>
-    </div>
-    <div class="mokup">
-      <img src="./assets/images/mockup-phone.webp" alt="moukup">
-    </div>
-  </section>
-  <!-- service Tab -->
-  <section class="service-tab container">
-    <div class="service-tab__icons">
-      <a href="#nav-classic-tab" data-id="1" class="nav-item ">
-        <img src="https://tapsi.ir/images/home/cc-classic.png" alt="tapsi-classic-icon">
-        <p> تپسی کلاسیک</p>
-      </a>
-      <a href="#nav-motopeyk-tab" data-id="2" class="nav-item ">
-        <img src="https://tapsi.ir/images/home/cc-motopeyk.png" alt="motopeyk-icon">
-        <p>موتوپیک</p>
-      </a>
-      <a href="#nav-autopeyk-tab" data-id="3" class="nav-item" ">
-        <img src=" https://tapsi.ir/images/home/cc-autopeyk.png" alt="autopeyk-icon">
-        <p>اتوپیک</p>
-      </a>
-      <a href="#nav-plus-tab" data-id="4" class="nav-item">
-        <img src="https://tapsi.ir/images/home/cc-plus.png" alt="tapsi-plus-icon">
-        <p>تپسی پلاس</p>
-      </a>
-      <a href="#nav-tel-tab" data-id="5" class="nav-item ">
-        <img src="https://tapsi.ir/images/home/cc-tel.png" alt="tapsi-tel-icon">
-        <p>تپسی تلفنی</p>
-      </a>
-      <a href="#nav-hamyar-tab" data-id="6" class="nav-item">
-        <img src="https://tapsi.ir/images/home/cc-hamyar.png" alt="hamyar-icon">
-        <p>همیار</p>
-      </a>
-      <a href="#nav-hamkhat-tab" data-id="7" class="nav-item">
-        <img src="https://tapsi.ir/images/home/cc-hamkhat.png" alt="hamkhat-icon">
-        <p>هم‌خط</p>
-      </a>
-      <a href="#nav-taxi-tab" data-id="8" class="nav-item ">
-        <img src="https://tapsi.ir/images/home/cc-taxi.png" alt="tapsi-taxi-icon">
-        <p>تاکسی</p>
-      </a>
-      <a href="#nav-line-tab" data-id="9" class="nav-item ">
-        <img src="https://tapsi.ir/images/home/cc-line.png" alt="tapsi-line-icon">
-        <p>تپسی لاین</p>
-      </a>
-    </div>
-  </section>
-  <!-- dddddddd -->
-  <section class="features container">
-    <div class="features__image">
-      <img id="myImg" src="" alt="" />
-    </div>
-    <div class="features__discription">
-      <h2 id="myTitle"></h2>
-      <p id="myP"></p>
-    </div>
-  </section>
-  <!-- ddddddd -->
-  <!-- <hr style="width: 50%; margin: 0 auto;"> -->
-
-  <section class="features container">
-
-    <div class="features__image">
-      <img src="./assets/images/i-mac-1 1.png" alt="i-mac" />
-    </div>
-    <div class="features__discription">
-      <h2>خدمات تپسی برای کسب و کارها</h2>
-      <p>
-        با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
-        خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید
-        داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به
-        پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی
-        سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-      </p>
-      <button class="btn btn--primary">ورود وثبت نام پنل سازمانی</button>
-    </div>
-  </section>
-  <section class="features container reverse">
-    <div class="features__image ">
-      <img src="https://tapsi.ir/images/home/macbook.webp" alt="i-mac" />
-    </div>
-    <div class="features__discription ">
-      <h2>خدمات تپسی برای کسب و کارها</h2>
-      <p>
-        با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
-        خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید
-        داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به
-        پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی
-        سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-      </p>
-      <button class="btn btn--primary">ورود وثبت نام پنل سازمانی</button>
-    </div>
-  </section>
-  <div class="block-plan">
-    <div class="plan regular">
-      <div class="plan__header header--secondry">
-        <div class="plan__header--badge">
-          <span>عادی</span>
-          <span class="badge badge--secondry"> off 10%</span>
-        </div>
-
-        <p><span class="plan__header--price">290,000</span><span>ماهانه/تومان</span></p>
-        <p>سرویس ماشین های معمولی</p>
-      </div>
-      <div class="plan__body">
-        <ul class="list list--tick">
-          <li class="list__item">کیفیت افتضاح</li>
-          <li class="list__item">چهارتا چرخ داره</li>
-          <li class="list__item">راننده بداخلاق</li>
-        </ul>
-      </div>
-      <div class="plan__footer">
-        <button class="btn btn--secondry btn--block">ثبت سفارش</button>
-      </div>
-    </div>
-    <div class="plan special">
-      <div class="plan__header header--primary">
-        <div class="plan__header--badge">
-          <span>عادی</span>
-          <span class="badge badge--primary"> off 10%</span>
-        </div>
-
-        <p><span class="plan__header--price">290,000</span><span>ماهانه/تومان</span></p>
-        <p>سرویس ماشین های معمولی</p>
-      </div>
-      <div class="plan__body">
-        <ul class="list list--tick">
-          <li class="list__item">کیفیت افتضاح</li>
-          <li class="list__item">چهارتا چرخ داره</li>
-          <li class="list__item">راننده بداخلاق</li>
-        </ul>
-      </div>
-      <div class="plan__footer">
-        <button class="btn btn--primary btn--block">ثبت سفارش</button>
-      </div>
-    </div>
-    <div class="plan regular">
-      <div class="plan__header header--secondry">
-        <div class="plan__header--badge">
-          <span>عادی</span>
-          <span class="badge badge--secondry"> off 10%</span>
-        </div>
-
-        <p><span class="plan__header--price">290,000</span><span>ماهانه/تومان</span></p>
-        <p>سرویس ماشین های معمولی</p>
-      </div>
-      <div class="plan__body">
-        <ul class="list list--tick">
-          <li class="list__item">کیفیت افتضاح</li>
-          <li class="list__item">چهارتا چرخ داره</li>
-          <li class="list__item">راننده بداخلاق</li>
-        </ul>
-      </div>
-      <div class="plan__footer">
-        <button class="btn btn--secondry btn--block">ثبت سفارش</button>
-      </div>
-    </div>
-  </div>
-  <section class="contact-us container">
-    <div class="contact-us__icons" ">
-        <span class=" icons--twiter"></span>
-      <span class="icons--facebook"></span>
-      <span class="icons--instagram"></span>
-    </div>
-    <div class="contact-us__adress">
-      <span class="adress--email">habibollahi24@gmail.com</span>
-      <span class="adress--number">09302549198</span>
-      <span class="adress--adress">خورزق سیتی_ جنب آتشنشانی75</span>
-    </div>
-    <div class="contact-us__map">
-      <img src="./assets/images/map.png" alt="map">
-    </div>
-    <div class="contact-us__form">
-      <h4>نظرات شما</h4>
-      <form action="">
-        <input type="text" placeholder="نام و نام خانوادگی">
-        <input type="email" placeholder="ایمیل خود را وارد کنید">
-        <textarea style="resize: none; height: 100%;" name="" id="" cols="30" rows="10"></textarea>
-        <button class="btn btn--primary btn--block"> ثبت نظر</button>
-      </form>
-    </div>
-  </section>
-  <footer class="footer">
-    <section class="container footer__sections">
-      <ul class="list list--footer">
-        <h3>مسافران</h3>
-        <li>دانلود اپ مسافر</li>
-        <li>نسخه وب تپسی</li>
-        <li>پرسش های متداول مسافران</li>
-        <li>باشگاه مشتریان</li>
-      </ul>
-      <ul class="list list--footer">
-        <h3>مسافران</h3>
-        <li>دانلود اپ مسافر</li>
-        <li>نسخه وب تپسی</li>
-        <li>پرسش های متداول مسافران</li>
-        <li>باشگاه مشتریان</li>
-      </ul>
-      <ul class="list list--footer">
-        <h3>مسافران</h3>
-        <li>دانلود اپ مسافر</li>
-        <li>نسخه وب تپسی</li>
-        <li>پرسش های متداول مسافران</li>
-        <li>باشگاه مشتریان</li>
-      </ul>
-      <ul class="list list--footer">
-        <h3>مسافران</h3>
-        <li>دانلود اپ مسافر</li>
-        <li>نسخه وب تپسی</li>
-        <li>پرسش های متداول مسافران</li>
-        <li>باشگاه مشتریان</li>
-      </ul>
-      <ul class="list list--footer">
-        <h3>مسافران</h3>
-        <li>دانلود اپ مسافر</li>
-        <li>نسخه وب تپسی</li>
-        <li>پرسش های متداول مسافران</li>
-        <li>باشگاه مشتریان</li>
-      </ul>
-      <div class="sections--image--dis">
-        <div class="sections--image">
-          <img src="./assets/images/enemad.png" alt="e-namad">
-        </div>
-        <div class="sections--image">
-          <img src="./assets/images/enemad.png" alt="e-namad">
-        </div>
-        <div class="sections--image">
-          <img src="./assets/images/enemad.png" alt="e-namad">
-        </div>
+      <div class="mokup">
+        <img src="./assets/images/mockup-phone.webp" alt="moukup" />
       </div>
     </section>
-  </footer>
+    <!-- service Tab -->
+    <section class="service-tab container">
+      <div class="service-tab__icons">
+        <a href="#nav-classic-tab" data-id="1" class="nav-item">
+          <img
+            src="./assets/images/service/cc-classic.png"
+            alt="tapsi-classic-icon"
+          />
+          <p>تپسی کلاسیک</p>
+        </a>
+        <a href="#nav-motopeyk-tab" data-id="2" class="nav-item">
+          <img
+            src="./assets/images/service/cc-motopeyk.png"
+            alt="motopeyk-icon"
+          />
+          <p>موتوپیک</p>
+        </a>
+        <a href="#nav-autopeyk-tab" data-id="3" class="nav-item">
+          <img
+            src="./assets/images/service/cc-autopeyk.png"
+            alt="autopeyk-icon"
+          />
+          <p>اتوپیک</p>
+        </a>
+        <a href="#nav-plus-tab" data-id="4" class="nav-item">
+          <img
+            src="./assets/images/service/cc-plus.png"
+            alt="tapsi-plus-icon"
+          />
+          <p>تپسی پلاس</p>
+        </a>
+        <a href="#nav-tel-tab" data-id="5" class="nav-item">
+          <img
+            src="./assets/images/service/cc-tel.png"
+            alt="tapsi-tel-icon"
+          />
+          <p>تپسی تلفنی</p>
+        </a>
 
-  <script src="./main.js"></script>
-</body>
+        <a href="#nav-hamkhat-tab" data-id="7" class="nav-item">
+          <img
+            src="./assets/images/service/cc-hamkhat.png"
+            alt="hamkhat-icon"
+          />
+          <p>هم‌خط</p>
+        </a>
+        <a href="#nav-taxi-tab" data-id="8" class="nav-item">
+          <img
+            src="./assets/images/service/cc-taxi.png"
+            alt="tapsi-taxi-icon"
+          />
+          <p>تاکسی</p>
+        </a>
+        <a href="#nav-line-tab" data-id="9" class="nav-item">
+          <img
+            src="./assets/images/service/cc-line.png"
+            alt="tapsi-line-icon"
+          />
+          <p>تپسی لاین</p>
+        </a>
+      </div>
+    </section>
+    <!-- dddddddd -->
+    <section class="features container">
+      <div class="features__image">
+        <img id="myImg" src="" alt="" />
+      </div>
+      <div class="features__discription">
+        <h2 id="myTitle"></h2>
+        <p id="myP"></p>
+      </div>
+    </section>
+    <!-- ddddddd -->
+    <!-- <hr style="width: 50%; margin: 0 auto;"> -->
 
+    <section class="features container">
+      <div class="features__image">
+        <img src="./assets/images/i-mac-1 1.png" alt="i-mac" />
+      </div>
+      <div class="features__discription">
+        <h2>خدمات تپسی برای کسب و کارها</h2>
+        <p>
+          با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+          در این صورت می توان امید داشت که تمام و دشواری موجود در
+          ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز
+          شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل
+          دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+        </p>
+        <button class="btn btn--primary">
+          ورود وثبت نام پنل سازمانی
+        </button>
+      </div>
+    </section>
+    <section class="features container reverse">
+      <div class="features__image">
+        <img src="./assets/images/i-mac-1 1.png" alt="i-mac" />
+      </div>
+      <div class="features__discription">
+        <h2>خدمات تپسی برای کسب و کارها</h2>
+        <p>
+          با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+          الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+          در این صورت می توان امید داشت که تمام و دشواری موجود در
+          ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز
+          شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل
+          دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+        </p>
+        <button class="btn btn--primary">
+          ورود وثبت نام پنل سازمانی
+        </button>
+      </div>
+    </section>
+    <div class="block-plan">
+      <div class="plan regular">
+        <div class="plan__header header--secondry">
+          <div class="plan__header--badge">
+            <span>عادی</span>
+            <span class="badge badge--secondry"> off 10%</span>
+          </div>
+
+          <p>
+            <span class="plan__header--price">290,000</span
+            ><span>ماهانه/تومان</span>
+          </p>
+          <p>سرویس ماشین های معمولی</p>
+        </div>
+        <div class="plan__body">
+          <ul class="list list--tick">
+            <li class="list__item">کیفیت افتضاح</li>
+            <li class="list__item">چهارتا چرخ داره</li>
+            <li class="list__item">راننده بداخلاق</li>
+          </ul>
+        </div>
+        <div class="plan__footer">
+          <button class="btn btn--secondry btn--block">
+            ثبت سفارش
+          </button>
+        </div>
+      </div>
+      <div class="plan special">
+        <div class="plan__header header--primary">
+          <div class="plan__header--badge">
+            <span>عادی</span>
+            <span class="badge badge--primary"> off 10%</span>
+          </div>
+
+          <p>
+            <span class="plan__header--price">290,000</span
+            ><span>ماهانه/تومان</span>
+          </p>
+          <p>سرویس ماشین های معمولی</p>
+        </div>
+        <div class="plan__body">
+          <ul class="list list--tick">
+            <li class="list__item">کیفیت افتضاح</li>
+            <li class="list__item">چهارتا چرخ داره</li>
+            <li class="list__item">راننده بداخلاق</li>
+          </ul>
+        </div>
+        <div class="plan__footer">
+          <button class="btn btn--primary btn--block">
+            ثبت سفارش
+          </button>
+        </div>
+      </div>
+      <div class="plan regular">
+        <div class="plan__header header--secondry">
+          <div class="plan__header--badge">
+            <span>عادی</span>
+            <span class="badge badge--secondry"> off 10%</span>
+          </div>
+
+          <p>
+            <span class="plan__header--price">290,000</span
+            ><span>ماهانه/تومان</span>
+          </p>
+          <p>سرویس ماشین های معمولی</p>
+        </div>
+        <div class="plan__body">
+          <ul class="list list--tick">
+            <li class="list__item">کیفیت افتضاح</li>
+            <li class="list__item">چهارتا چرخ داره</li>
+            <li class="list__item">راننده بداخلاق</li>
+          </ul>
+        </div>
+        <div class="plan__footer">
+          <button class="btn btn--secondry btn--block">
+            ثبت سفارش
+          </button>
+        </div>
+      </div>
+    </div>
+    <section class="contact-us container">
+      <div class="contact-us__icons">
+        <span class="icons--twiter"></span>
+        <span class="icons--facebook"></span>
+        <span class="icons--instagram"></span>
+      </div>
+      <div class="contact-us__adress">
+        <span class="adress--email">habibollahi24@gmail.com</span>
+        <span class="adress--number">09302549198</span>
+        <span class="adress--adress">خورزق سیتی_ جنب آتشنشانی75</span>
+      </div>
+      <div class="contact-us__map">
+        <img src="./assets/images/map.png" alt="map" />
+      </div>
+      <div class="contact-us__form">
+        <h4>نظرات شما</h4>
+        <form action="">
+          <input type="text" placeholder="نام و نام خانوادگی" />
+          <input type="email" placeholder="ایمیل خود را وارد کنید" />
+          <textarea
+            style="resize: none; height: 100%"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button class="btn btn--primary btn--block">ثبت نظر</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <section class="container footer__sections">
+        <ul class="list list--footer">
+          <h3>مسافران</h3>
+          <li>دانلود اپ مسافر</li>
+          <li>نسخه وب تپسی</li>
+          <li>پرسش های متداول مسافران</li>
+          <li>باشگاه مشتریان</li>
+        </ul>
+        <ul class="list list--footer">
+          <h3>مسافران</h3>
+          <li>دانلود اپ مسافر</li>
+          <li>نسخه وب تپسی</li>
+          <li>پرسش های متداول مسافران</li>
+          <li>باشگاه مشتریان</li>
+        </ul>
+        <ul class="list list--footer">
+          <h3>مسافران</h3>
+          <li>دانلود اپ مسافر</li>
+          <li>نسخه وب تپسی</li>
+          <li>پرسش های متداول مسافران</li>
+          <li>باشگاه مشتریان</li>
+        </ul>
+        <ul class="list list--footer">
+          <h3>مسافران</h3>
+          <li>دانلود اپ مسافر</li>
+          <li>نسخه وب تپسی</li>
+          <li>پرسش های متداول مسافران</li>
+          <li>باشگاه مشتریان</li>
+        </ul>
+        <ul class="list list--footer">
+          <h3>مسافران</h3>
+          <li>دانلود اپ مسافر</li>
+          <li>نسخه وب تپسی</li>
+          <li>پرسش های متداول مسافران</li>
+          <li>باشگاه مشتریان</li>
+        </ul>
+        <div class="sections--image--dis">
+          <div class="sections--image">
+            <img src="./assets/images/enemad.png" alt="e-namad" />
+          </div>
+          <div class="sections--image">
+            <img src="./assets/images/enemad.png" alt="e-namad" />
+          </div>
+          <div class="sections--image">
+            <img src="./assets/images/enemad.png" alt="e-namad" />
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
